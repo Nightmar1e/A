@@ -1,0 +1,24 @@
+body{
+    border : 1px solid #000000;
+    width: 90%;
+    margin: 0 auto;
+    background: lightgray;
+    font-family:  tahoma;
+}
+
+
+
+p {
+    font-size: 160%;
+    font-family: serif;
+    color: darkred;
+    line-height 1.5em;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+}
+blockquote {
+  border-left: 3px solid Firebrick;
+}
