@@ -67,12 +67,12 @@ li{
     font-size: 140%;
     font-family: serif;
     display:block;
-    background-color: #f2f2f2;
+    background-color: #000;
     width: 600px;
     padding: 15px;
     border: 2px solid gray;
     margin: 5;
-    color: darkred;
+    color: darkgoldenrod;
 }
 td{
     font-size: 120%;
