@@ -3,6 +3,10 @@
 }
 
 
+blockquote{
+    text-align: center;
+
+}
 body{
     background-image: url("img.png");
     background-repeat: no-repeat;
@@ -39,13 +43,24 @@ body{
     font-style: italic;
     color: black;
 }
+.notification {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background-color: silver;
+  padding: 10px;
+  padding-right: 50px;
+  padding-bottom: 5px;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
 
 
 li{
     font-size: 140%;
     font-family: serif;
     display:block;
-    
+    background-color: #f2f2f2;
     width: 600px;
     padding: 15px;
     border: 2px solid gray;
@@ -53,7 +68,7 @@ li{
     color: darkred;
 }
 td{
-    font-size: 140%;
+    font-size: 120%;
     color: darkred;
     border: 3px solid gray;
     text-align: center;
@@ -65,21 +80,35 @@ th{
     font-size: 20px;
     text-align: center;
 }
+tr:nth-child(even) {
+    background-color: lightgrey;
+}
+tr:nth-child(odd) {
+  background-color: #ffffff; /* White color */
+}
 h1{
+    text-align: center;
     font-size: 400%;
     font-family: Arial;
     background-color: gold;
     margin-bottom:  50px;
     margin-top:  20px;
-
+}
+h2{
+    text-align: center;
 }
 
 h4{
+    text-align: center;
     font-size: 140%;
     font-family: Arial;
     color: black;
 }
+figure{
+    text-align: center;
+}
 p1 {
+    
     font-size: 180%;
     font-family: serif;
     color: darkred;
@@ -157,7 +186,9 @@ th:hover, td:hover, li:hover, h1:hover{
 .box {
   border: 1px solid black;
 }
-
+footer{
+    text-align: center;
+}
 /*@media only screen and (max-width: 2900px)and  (min-width: 1500px) {
   body {
     background-color: lightblue;
