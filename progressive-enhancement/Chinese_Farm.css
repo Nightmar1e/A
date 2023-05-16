@@ -1,3 +1,8 @@
+*{
+    font-family: 'Open Sans', sans-serif;
+}
+
+
 body{
     background-image: url("img.png");
     background-repeat: no-repeat;
@@ -24,7 +29,7 @@ body{
     font-family: serif;
     font-size: 100%;
     font-style: italic;
-    color: blue;
+    color: darkblue;
 }
 
 .farmer {
@@ -63,7 +68,10 @@ th{
 h1{
     font-size: 400%;
     font-family: Arial;
-    background-color: yellow;
+    background-color: gold;
+    margin-bottom:  50px;
+    margin-top:  20px;
+
 }
 
 h4{
@@ -79,10 +87,47 @@ p1 {
 }
 
 p {
-    font-size: 160%;
+    font-size: 140%;
     font-family: serif;
     color: darkred;
     line-height 1.5em;
+}
+
+.container1{
+    justify-content: center;
+    text-align:justify;
+    align-items: center;
+    flex-direction: row-reverse; /* made the image on the right */
+    margin-left: 5px;
+    display: flex;
+    padding-left:0px;
+    justify-content: space-between;
+}
+
+.container1 img{
+    margin-left: 10px;
+    padding-top: 10px;
+    padding-right:15px;
+    height: 600px;
+    width: 800px;}
+
+.container {
+    margin-right: 10px;
+
+    justify-content: center;
+    align-items: center;
+    text-align:justify;
+    display: flex;
+    padding-left:0px;
+    justify-content: space-between; /* Adjust as desired */
+}
+
+.container img {
+    margin-left: 10px;
+  padding-top: 10px;
+  padding-right:15px;
+  height: 500px;
+  width: 800px; /* Adjust the image width as desired */
 }
 
 .center {
@@ -91,6 +136,10 @@ p {
 }
 blockquote {
   border-left: 3px solid Firebrick;
+}
+
+.figure1{
+    margin-left: 40px;
 }
 
 button {
