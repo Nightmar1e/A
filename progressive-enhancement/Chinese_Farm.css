@@ -1,12 +1,82 @@
 body{
+    background-image: url("img.png");
+    background-repeat: no-repeat;
+    background-position: right top;
     border : 1px solid #000000;
     width: 90%;
     margin: 0 auto;
     background: lightgray;
     font-family:  tahoma;
+    font-size: 20px;
+}
+
+.red-text {
+  color: red;
+}
+.green-text {
+  color: green;
 }
 
 
+.villager {
+    
+    line-height 1.5em;
+    font-family: serif;
+    font-size: 100%;
+    font-style: italic;
+    color: blue;
+}
+
+.farmer {
+    line-height 1.5em;
+    font-family: serif;
+    font-size: 100%;
+    font-style: italic;
+    color: black;
+}
+
+
+li{
+    font-size: 140%;
+    font-family: serif;
+    display:block;
+    
+    width: 600px;
+    padding: 15px;
+    border: 2px solid gray;
+    margin: 5;
+    color: darkred;
+}
+td{
+    font-size: 140%;
+    color: darkred;
+    border: 3px solid gray;
+    text-align: center;
+}
+th{
+    font-size: 140%;
+    color: darkred;
+    border: 3px solid grey;
+    font-size: 20px;
+    text-align: center;
+}
+h1{
+    font-size: 400%;
+    font-family: Arial;
+    background-color: yellow;
+}
+
+h4{
+    font-size: 140%;
+    font-family: Arial;
+    color: black;
+}
+p1 {
+    font-size: 180%;
+    font-family: serif;
+    color: darkred;
+    line-height 1.5em;
+}
 
 p {
     font-size: 160%;
@@ -22,3 +92,27 @@ p {
 blockquote {
   border-left: 3px solid Firebrick;
 }
+
+button {
+  background-color: blue;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+}
+
+th:hover, td:hover, li:hover, h1:hover{
+  background-color: lightgrey;
+  color: lightsalmon;
+  border: 2px solid red;
+}
+.box {
+  border: 1px solid black;
+}
+
+/*@media only screen and (max-width: 2900px)and  (min-width: 1500px) {
+  body {
+    background-color: lightblue;
+  }
+}*/
+
+
